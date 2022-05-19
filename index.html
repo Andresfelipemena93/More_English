@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="assets/css/owl.css">
     <link rel="stylesheet" href="assets/css/lightbox.css">
     <link rel="shortcut icon" href="assets/images/more.jpg" />
+    <link rel="stylesheet" href="contact/styles.css">
 <!--
 
 -->
@@ -66,41 +67,23 @@
             </div>
           </div>
         </div>
+        <!-- formulario de contacto -->
         <div class="col-md-5">
           <div class="right-content">
-            <div class="top-content">
-              <h6>Registrate ahora y <em>empieza a hablar inglés.</em> ¡Nuestros asesores se pondrán en contacto contigo!</h6>
-            </div>
-            <form id="contact" action="" method="get">
-              <div class="row">
-                <div class="col-md-12">
-                  <fieldset>
-                    <input name="name" type="text" class="form-control" id="name" placeholder="Tu nombre" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-12">
-                  <fieldset>
-                    <input name="email" type="text" class="form-control" id="email" placeholder="Tu correo electrónico" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-12">
-                  <fieldset>
-                    <input name="phone-number" type="text" class="form-control" id="phone-number" placeholder="Tu número telefónico" required="">
-                  </fieldset>
-                </div>
-
-                <div class="col-md-12">
-                  <fieldset>
-                    <input name="country" type="text" class="form-control" id="phone-number" placeholder="Tu país" required="">
-                  </fieldset>
-                </div>
-                <div class="col-md-12">
-                  <fieldset>
-                    <button type="submit" id="form-submit" class="button" style="border-radius: 15px;">Empezar ahora</button>
-                  </fieldset>
-                </div>
-              </div>
-            </form>
+            <section>
+              <section class="dos-columnas">
+                <div class="formulario">
+                  <form action="enviar.php" method="post">
+                    <input type="text" name="nombre" placeholder=" Nombre completo" class="caja-1" required>
+                    <input type="email" name="email" placeholder=" E-mail" class="caja-1" required>
+                    <input type="tel" name="telefono" placeholder=" Teléfono" class="caja-1" required>
+                    <input type="text" name="asunto" placeholder=" Pais de residencia" class="caja-1">
+                    <textarea name="mensaje" id="" cols="40" rows="10" placeholder=" Mensaje" class="caja-2" required></textarea>
+                    <button type="submit" class="contratar-a correr">Enviar</button>
+                  </form>
+                </div>	
+              </section>
+            </section>
           </div>
         </div>
       </div>
