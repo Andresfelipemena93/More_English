@@ -76,12 +76,12 @@
             <section>
               <section class="dos-columnas">
                 <div class="formulario">
-                  <form action="enviar.php" method="post">
-                    <input type="text" name="nombre" placeholder=" Nombre completo" class="caja-1" required>
-                    <input type="email" name="email" placeholder=" E-mail" class="caja-1" required>
-                    <input type="tel" name="telefono" placeholder=" Teléfono" class="caja-1" required>
-                    <input type="text" name="asunto" placeholder=" Pais de residencia" class="caja-1">
-                    <textarea name="mensaje" id="" cols="40" rows="10" placeholder=" Mensaje" class="caja-2" required></textarea>
+                  <form action="registrar.php" method="post">
+                    <input type="text" name="nombres_d" placeholder=" Nombres" class="caja-1" required>
+                    <input type="text" name="apellidos_d" placeholder=" Apellidos" class="caja-1" required>
+                    <input type="tel" name="telefono_d" placeholder=" Teléfono" class="caja-1" required>
+                    <input type="email" name="correo_d" placeholder=" E-mail" class="caja-1" required>
+                    <input type="text" name="pais_d" placeholder=" Pais de residencia" class="caja-1">
                     <button type="submit" class="contratar-a correr">Enviar</button>
                   </form>
                 </div>	
